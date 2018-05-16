@@ -70,7 +70,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/ghk/sideka-electron.git",
-					"commit": "bf5c6f0c62c95038146c4e473c64751459e489aa",
+					"commit": "7197c23d085da616516502349c05625d36ff6492",
 					"dest": "main"
 				},
 				{
