@@ -1,20 +1,26 @@
+From da2a3449219af84a84fcc877f9dc2b3d62ab53e2 Mon Sep 17 00:00:00 2001
+From: Lionir <git@thelion.website>
+Date: Sat, 15 May 2021 00:29:59 -0400
+Subject: [PATCH] Remove online rebuild
+
+---
+ config/install-app-deps.js | 2 --
+ 1 file changed, 2 deletions(-)
+
 diff --git a/config/install-app-deps.js b/config/install-app-deps.js
-index 01ac0e55..0b1c8f35 100644
+index f8ca0937..ce465705 100644
 --- a/config/install-app-deps.js
 +++ b/config/install-app-deps.js
-@@ -1,7 +1,6 @@
- const fs = require('fs');
- const jetpack = require('fs-jetpack');
- const path = require('path');
--const installOrRebuild = require('electron-builder-lib/out/util/yarn').installOrRebuild;
- const printErrorAndExit = require('builder-util/out/promise').printErrorAndExit;
- 
- const root = process.cwd();
-@@ -25,7 +24,6 @@ const options = {
+@@ -25,8 +25,6 @@ const options = {
    arch
  }
  
 -installOrRebuild(rootPackage.build, appDir, options, true).catch(printErrorAndExit);
- 
+-
  //jetpack.remove(path.join(appDir, 'src'));
  
+ function getElectronVersion(root) {
+-- 
+2.31.1
+
+
