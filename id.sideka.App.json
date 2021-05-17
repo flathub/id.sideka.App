@@ -1,10 +1,9 @@
 {
 	"app-id": "id.sideka.App",
 	"runtime": "org.freedesktop.Platform",
-	"runtime-version": "1.6",
+	"runtime-version": "20.08",
 	"base": "io.atom.electron.BaseApp",
-	"base-version": "stable",
-	"branch": "stable",
+	"base-version": "20.08",
 	"sdk": "org.freedesktop.Sdk",
 	"command": "run.sh",
 	"separate-locales": false,
@@ -22,6 +21,7 @@
 		}
 	},
 	"modules": [
+		"shared-modules/python2.7/python-2.7.json",
 		{
 			"name": "nodejs",
 			"cleanup": [
@@ -36,8 +36,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://nodejs.org/dist/v8.11.2/node-v8.11.2.tar.xz",
-                			"sha256": "539946c0381809576bed07424a35fc1740d52f4bd56305d6278d9e76c88f4979"
+					"url": "https://nodejs.org/dist/latest-v8.x/node-v8.17.0.tar.xz",
+        			"sha256": "5b0d96db482b273f0324c299ead86ecfbc5d033516e5fc37c92cfccb933ef6ff"
 				}
 			]
 		},
@@ -59,6 +59,20 @@
 			]
 		},
 		{
+			"name": "pango",
+            "buildsystem": "meson",
+            "config-opts": [
+                "--buildtype=release"
+            ],
+			"sources": [
+				{
+					"type": "archive",
+					"url": "https://download.gnome.org/sources/pango/1.43/pango-1.43.0.tar.xz",
+					"sha256": "d2c0c253a5328a0eccb00cdd66ce2c8713fabd2c9836000b6e22a8b06ba3ddd2"
+				}
+			]
+		},
+		{
 			"name": "sideka-app",
 			"build-options": {
 				"env": {
@@ -70,17 +84,13 @@
 				{
 					"type": "git",
 					"url": "https://github.com/ghk/sideka-electron.git",
-					"commit": "7197c23d085da616516502349c05625d36ff6492",
+					"tag": "v2.3.6",
+					"commit": "a025d0f949adbd173905b00164e30676d0689866",
 					"dest": "main"
 				},
 				{
 					"type": "patch",
 					"path": "remove-online-rebuild.patch",
-					"dest": "main"
-				},
-				{
-					"type": "patch",
-					"path": "remove-autoupdater.patch",
 					"dest": "main"
 				},
 				{
