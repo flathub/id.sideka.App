@@ -2863,56 +2863,56 @@
     },
     {
         "type": "file",
-        "url": "https://github.com/electron/electron/releases/download/v2.0.3/electron-v2.0.3-linux-armv7l.zip",
-        "sha256": "04df57a7b1981f9ade91499d14765d18a9a3e1cc7e3f562397f24fe298e2b8d4",
+        "url": "https://github.com/electron/electron/releases/download/v2.0.18/electron-v2.0.18-linux-armv7l.zip",
+        "sha256": "75c37301e958368263cee27539bc80ab9bcf810a83f3e3dd6367f6646866b9fb",
         "dest": "electron-cache",
         "only-arches": [
             "arm"
         ],
-        "dest-filename": "electron-v2.0.3-linux-armv7l.zip"
+        "dest-filename": "electron-v2.0.18-linux-armv7l.zip"
     },
     {
         "type": "file",
-        "url": "https://github.com/electron/electron/releases/download/v2.0.3/electron-v2.0.3-linux-arm64.zip",
-        "sha256": "f3be86d5322ffc7b278d448e9b0c86718af1a5ddfd18f600d7c480c0e3dfec3b",
+        "url": "https://github.com/electron/electron/releases/download/v2.0.18/electron-v2.0.18-linux-arm64.zip",
+        "sha256": "dfcfb60fc57dcec41a25cebbea37c0486a0ffd690ac3ccbb80a97161851df81f",
         "dest": "electron-cache",
         "only-arches": [
             "aarch64"
         ],
-        "dest-filename": "electron-v2.0.3-linux-arm64.zip"
+        "dest-filename": "electron-v2.0.18-linux-arm64.zip"
     },
     {
         "type": "file",
-        "url": "https://github.com/electron/electron/releases/download/v2.0.3/electron-v2.0.3-linux-ia32.zip",
-        "sha256": "4a3c2817fffc48420989949e0e0140378bfac7e5ce2f830fc03dadc9c87a6160",
+        "url": "https://github.com/electron/electron/releases/download/v2.0.18/electron-v2.0.18-linux-ia32.zip",
+        "sha256": "05bbd3e73776143ac357b0c25a631bf2e503a922b9506b23d636bd0b06a3f2f6",
         "dest": "electron-cache",
         "only-arches": [
             "i386"
         ],
-        "dest-filename": "electron-v2.0.3-linux-ia32.zip"
+        "dest-filename": "electron-v2.0.18-linux-ia32.zip"
     },
     {
         "type": "file",
-        "url": "https://github.com/electron/electron/releases/download/v2.0.3/electron-v2.0.3-linux-x64.zip",
-        "sha256": "8996b33b3c7d1fe1856a154b50ae340f5f2f0b8606b1530ec53c5468b6ee3995",
+        "url": "https://github.com/electron/electron/releases/download/v2.0.18/electron-v2.0.18-linux-x64.zip",
+        "sha256": "f196e06b6ecfa33bffb02b3d6c4a64bd5a076014e2f21c4a67356474ee014000",
         "dest": "electron-cache",
         "only-arches": [
             "x86_64"
         ],
-        "dest-filename": "electron-v2.0.3-linux-x64.zip"
+        "dest-filename": "electron-v2.0.18-linux-x64.zip"
     },
     {
         "type": "file",
-        "url": "data:04df57a7b1981f9ade91499d14765d18a9a3e1cc7e3f562397f24fe298e2b8d4%20%2Aelectron-v2.0.3-linux-armv7l.zip%0Af3be86d5322ffc7b278d448e9b0c86718af1a5ddfd18f600d7c480c0e3dfec3b%20%2Aelectron-v2.0.3-linux-arm64.zip%0A4a3c2817fffc48420989949e0e0140378bfac7e5ce2f830fc03dadc9c87a6160%20%2Aelectron-v2.0.3-linux-ia32.zip%0A8996b33b3c7d1fe1856a154b50ae340f5f2f0b8606b1530ec53c5468b6ee3995%20%2Aelectron-v2.0.3-linux-x64.zip%0A",
+        "url": "data:75c37301e958368263cee27539bc80ab9bcf810a83f3e3dd6367f6646866b9fb%20%2Aelectron-v2.0.18-linux-armv7l.zip%0Adfcfb60fc57dcec41a25cebbea37c0486a0ffd690ac3ccbb80a97161851df81f%20%2Aelectron-v2.0.18-linux-arm64.zip%0A05bbd3e73776143ac357b0c25a631bf2e503a922b9506b23d636bd0b06a3f2f6%20%2Aelectron-v2.0.18-linux-ia32.zip%0Af196e06b6ecfa33bffb02b3d6c4a64bd5a076014e2f21c4a67356474ee014000%20%2Aelectron-v2.0.18-linux-x64.zip%0A",
         "dest": "electron-cache",
-        "dest-filename": "SHASUMS256.txt-2.0.3"
+        "dest-filename": "SHASUMS256.txt-2.0.18"
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/electron/-/electron-2.0.3.tgz",
-        "sha1": "8e591e820cae2ccdb0c3fd74c6d07834913fc133",
+        "url": "https://registry.yarnpkg.com/electron/-/electron-2.0.18.tgz",
+        "sha1": "52f1b248c3cc013b5a870094de3b6ba5de313a0f",
         "dest": "yarn-mirror",
-        "dest-filename": "electron-2.0.3.tgz"
+        "dest-filename": "electron-2.0.18.tgz"
     },
     {
         "type": "file",
