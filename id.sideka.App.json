@@ -102,8 +102,8 @@
 				},
 				{
 					"type": "file",
-					"path": "SHASUMS256.txt-1.7.0",
-					"dest-filename": "SHASUMS256.txt-1.7.0",
+					"path": "SHASUMS256-1.7.0.txt",
+					"dest-filename": "SHASUMS256-1.7.0.txt",
 					"dest": "chromedriver-cache"
 				},
 				"generated-sources.json",
