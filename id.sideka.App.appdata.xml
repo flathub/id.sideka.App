@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- See https://wiki.gnome.org/GnomeGoals/AppDataGnomeSoftware -->
-<component type="desktop">
-  <id>id.sideka.App.desktop</id>
-  <metadata_licence>CC0</metadata_licence>
+<component type="desktop-application">
+  <id>id.sideka.App</id>
+  <metadata_license>CC0-1.0</metadata_license>
   <project_license>AGPL-3.0-only</project_license>
   <name>Sideka</name>
   <name xml:lang="id">Sideka</name>
@@ -11,6 +11,12 @@
   </categories>
   <summary>Village Governance Platform</summary>
   <summary xml:lang="id">Platform Tata Kelola Desa</summary>
+  <provides>
+    <id>id.sideka.App.desktop</id>
+  </provides>
+  <replaces>
+    <id>id.sideka.App.desktop</id>
+  </replaces>
   <description>
     <p>Platform bagi pemerintah desa untuk menata kelola desa, melakukan pelayanan publik, dan menyuarakan suara desa.</p>
   </description>
